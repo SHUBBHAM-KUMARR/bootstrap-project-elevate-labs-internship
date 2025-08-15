@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog-food</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .bg-slate-200 {
+      background-color: #e2e8f0 !important;
+    }
+
+    .bg-slate-300 {
+      background-color: #cbd5e1 !important;
+    }
+
+    .bg-slate-400 {
+      background-color: #94a3b8 !important;
+    }
+
+    .bg-slate-500 {
+      background-color: #64748b !important;
+    }
+
+    .bg-slate-700 {
+      background-color: #334155 !important;
+    }
+
+    .bg-slate-900 {
+      background-color: #0f172a !important;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-300">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-slate-400">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" class="text-white">Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="main-container" class="container my-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 px-3 px-md-0">
+
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/mountains/300/200" class="card-img-top" alt="Nature Landscape">
+            <div class="card-body">
+              <h5 class="card-title">Peaceful Mountains</h5>
+              <p class="card-text">Experience the serenity of untouched peaks and breathtaking views in this hidden
+                valley.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/city/300/200" class="card-img-top" alt="City Skyline">
+            <div class="card-body">
+              <h5 class="card-title">City Lights</h5>
+              <p class="card-text">Dive into the vibrant nightlife, culture, and skyscrapers that make the city come
+                alive.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/beach/300/200" class="card-img-top" alt="Beach Sunset">
+            <div class="card-body">
+              <h5 class="card-title">Golden Shores</h5>
+              <p class="card-text">Walk along golden sands as the sun dips into the horizon, painting the sky in warm
+                hues.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/forest/300/200" class="card-img-top" alt="Forest Path">
+            <div class="card-body">
+              <h5 class="card-title">Whispering Woods</h5>
+              <p class="card-text">Lose yourself in the calming sounds of leaves rustling and birds singing deep in the
+                forest.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/desert/300/200" class="card-img-top" alt="Desert Dunes">
+            <div class="card-body">
+              <h5 class="card-title">Sandy Horizons</h5>
+              <p class="card-text">Explore vast dunes and endless skies where the desert tells tales of time and
+                silence.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/winter/300/200" class="card-img-top" alt="Snowy Peaks">
+            <div class="card-body">
+              <h5 class="card-title">Winter Wonderland</h5>
+              <p class="card-text">Breathe in crisp air and marvel at snow-covered peaks in a magical winter escape.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/castle/300/200" class="card-img-top" alt="Historic Castle">
+            <div class="card-body">
+              <h5 class="card-title">Castle of Legends</h5>
+              <p class="card-text">Step back in time and explore the ancient halls of a castle steeped in myth and
+                history.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/island/300/200" class="card-img-top" alt="Tropical Island">
+            <div class="card-body">
+              <h5 class="card-title">Island Escape</h5>
+              <p class="card-text">Relax under swaying palms with crystal-clear waters lapping at your feet.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/seed/countryside/300/200" class="card-img-top" alt="Countryside">
+            <div class="card-body">
+              <h5 class="card-title">Countryside Bliss</h5>
+              <p class="card-text">Enjoy the charm of rolling hills, quaint villages, and peaceful countryside life.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <footer class="bg-dark text-light pt-5 pb-4">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+
+        <!-- Column 1 -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Blog</h5>
+          <p>
+            Bringing you the best in travel, lifestyle, and adventure inspiration since 2025.
+          </p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Links</h5>
+          <p><a href="#" class="text-light text-decoration-none">Home</a></p>
+          <p><a href="#" class="text-light text-decoration-none">About</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Services</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Contact</a></p>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+          <p><i class="bi bi-house-door-fill"></i> 123 Main Street, City</p>
+          <p><i class="bi bi-envelope-fill"></i> email@example.com</p>
+          <p><i class="bi bi-telephone-fill"></i> +123 456 7890</p>
+        </div>
+
+      </div>
+
+      <hr class="mb-4">
+
+      <!-- Bottom row -->
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p class="text-center text-md-start">
+            © 2025 Your Brand. All rights reserved.
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-end">
+            <a href="#" class="text-light me-4"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light me-4"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light me-4"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
